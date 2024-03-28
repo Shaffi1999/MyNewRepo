@@ -1,0 +1,24 @@
+{
+  "groups": [
+    {
+      "name": "limits-servie",
+      "type": "com.in28minutes.microservices.limitsservice.configuration.Configuration",
+      "sourceType": "com.in28minutes.microservices.limitsservice.configuration.Configuration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "limits-servie.maximum",
+      "type": "java.lang.Integer",
+      "sourceType": "com.in28minutes.microservices.limitsservice.configuration.Configuration",
+      "defaultValue": 0
+    },
+    {
+      "name": "limits-servie.minimum",
+      "type": "java.lang.Integer",
+      "sourceType": "com.in28minutes.microservices.limitsservice.configuration.Configuration",
+      "defaultValue": 0
+    }
+  ],
+  "hints": []
+}
